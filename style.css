@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap%27');
+
+*{
+    margin:0%;
+    padding: 0%;
+}
+:root{
+    --font-padrão:'Inter', sans-serif;
+}
+html{
+    
+}
+body{
+    overflow-x: hidden;
+    font-family: var(--font-padrão);
+   
+}
+header{
+    height: 5vh;
+    background-color: #043873;
+    display: flex;
+    align-items:center;
+    color:#FFFFFF;
+    justify-content: start;
+   
+    
+    
+    
+}
+#opc{
+    display:flex;
+}
+#arrumalista{
+    position: relative;
+}
+#lista{
+    margin-left: 3.5vw;
+    list-style-type: none;
+    font-size: 1vw;
+}
+.azultop{
+    height: 100vh;
+    background-color: #043873;
+    
+    
+}
+
+#fundo{
+    width: 100%;
+    position:relative;
+}
+
+#logo{
+    width:2%;
+    position: relative;
+    
+}
+#pg1{
+    display: flex;
+    position: relative;
+    bottom: 10%;
+    color:#FFFFFF;
+    top:-40%;
+    flex-flow: column;
+    left: 10%;
+    
+        
+}
+#bot1{
+    display: flex;
+    width: 5vw;
+    height: 3vh;
+    border-radius: 5%;
+    background:#FFE492;
+    position: relative;
+    color:black;
+    align-items: center;
+    justify-content: center;
+    left:10%;
+    top:5%;
+    
+
+}
+#bot2{
+    display: flex;
+    width: 15vw;
+    height: 3vh;
+    border-radius: 5%;
+    background: #4F9CF9;
+    position: relative;
+    color:white;
+    align-items: center;
+    justify-content: center;
+    left:12%;
+    top:5%;
+}
+#bot3{
+    display: flex;
+    width: 10%;
+    height: 20%;
+    border-radius: 5%;
+    background: #4F9CF9;
+    position: relative;
+    color:white;
+    align-items: center;
+    justify-content: center;
+   
+}
+#bot4{
+    display: flex;
+    width: 5vw;
+    height: 4vh;
+    border-radius: 5%;
+    background: #4F9CF9;
+    position: relative;
+    color:white;
+    
+   
+}
+p{
+    font-size: 1vw;
+    
+}
+h1{
+    font-size: 3vw;
+    color:#FFFFFF;
+}
+h2{
+    font-size: 3vw;
+
+}
+.branco{
+    height: 100vh;
+    background-color:#FFFFFF;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+
+   
+
+}
+#circulos{
+    width:25%;
+
+   
+    
+
+}
+#pg2{
+    color:black;
+    flex-flow: column;
+    display: flex;
+    position: relative;
+    
+    
+}
+#pequeno{
+    font-size: 0.8vw;
+    
+    
+}
+
+.footer{
+    height: 5vh;
+    background-color: #043873;
+    color: #FFFFFF;
+    display: flex;
+    position: relative;
+    justify-content: center
+}
+#redessocias{
+    left:120%;
+    top:-12%;
+    position: relative;
+    justify-content: flex-end;
+
+}
+#redes{
+    right:15%;
+    height:3vh;
+
+    
+}
+#seta1{
+    height: 0.8vw;
+}
